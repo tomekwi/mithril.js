@@ -19,7 +19,7 @@ dashboard.controller = function() {
 
 dashboard.view = function(ctrl) {
 	return [
-		userProfile.view(ctrl.userProfile)
+		userProfile.view(ctrl.userProfile),
 		projectList.view(ctrl.projectList)
 	]
 }
